@@ -1,0 +1,9 @@
+set visualbell
+set noerrorbells
+set number
+set relativenumber
+
+map gcc <Action>(CommentByLineComment)
+map gcb <Action>(CommentByBlockComment)
+
+Plug 'preservim/nerdtree'
